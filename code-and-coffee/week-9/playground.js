@@ -1,4 +1,4 @@
-var logger = new Logger();
+const logger = require('./attempt-01');
 
 // logging string "foo" at timestamp 1
 logger.shouldPrintMessage(1, "foo"); // returns true;

@@ -45,3 +45,5 @@ Logger.prototype.shouldPrintMessage = function (atTick, msg) {
 
    return shouldPrint;
 };
+
+module.exports = new Logger();
