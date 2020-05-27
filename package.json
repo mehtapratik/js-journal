@@ -1,22 +1,22 @@
 {
-  "name": "js-journal",
-  "version": "1.0.0",
-  "description": "JavaScript writing prompts and hands-on exercises.",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mehtapratik/js-journal.git"
-  },
-  "author": "Pratik Mehta",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mehtapratik/js-journal/issues"
-  },
-  "homepage": "https://github.com/mehtapratik/js-journal#readme",
-  "devDependencies": {
-    "jest": "^26.0.1"
-  }
+   "name": "js-journal",
+   "version": "1.0.0",
+   "description": "JavaScript writing prompts and hands-on exercises.",
+   "main": "index.js",
+   "scripts": {
+      "test": "jest"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mehtapratik/js-journal.git"
+   },
+   "author": "Pratik Mehta",
+   "license": "MIT",
+   "bugs": {
+      "url": "https://github.com/mehtapratik/js-journal/issues"
+   },
+   "homepage": "https://github.com/mehtapratik/js-journal#readme",
+   "devDependencies": {
+      "jest": "^26.0.1"
+   }
 }
