@@ -3,12 +3,11 @@ function Logger() {
    this.queue = [];
    //Number of seconds since constructor was invoked
    this.elapsedSeconds = 0;
-   let me = this;
-   let runsEverySecond = function () {
-      me.elapsedSeconds++;
+   let runsEverySecond = () => {
+      this.elapsedSeconds++;
 
-      for (let request of me.queue) {
-         if (me.elapsedSeconds == request.seconds) {
+      for (let request of this.queue) {
+         if (this.elapsedSeconds == request.seconds) {
             console.log(request.text);
          }
       }
