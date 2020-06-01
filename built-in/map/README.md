@@ -11,9 +11,9 @@ let new_array = arr.map(function callback( currentValue[, index[, array]]) {
 ## Parameters
 
 `callback`
-Function that is called for every element of `_arr_`. Each time `_callback_` executes, the returned value is added to `_new_array_`.
+Function that is called for every element of `arr`. Each time `callback` executes, the returned value is added to `new_array`.
 
-The `_callback_` function accepts the following arguments:
+The `callback` function accepts the following arguments:
 
 - `currentValue`: The current element being processed in the array.
 - `index` (Optional): The index of the current element being processed in the array.
